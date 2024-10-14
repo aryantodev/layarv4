@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.navbar .container-fluid img{
+    width: 120px;
+}
+
+.nav-underline {
+    margin-left: 290px;
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: #37BD71;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+.nav-link.text-hover{
+    font-weight:600;
+    color: #4C5A73;
+    margin-left: 10px
+}
+
+.nav-link.text-hover:hover {
+    color: #37BD71; 
+    
+}
+
+.img{
+    background-color: #D9D9D9;
+    width: 40px;
+    height: 40px;
+    border-radius: 150px;
+}
+
+.ProfilResponsiv{
+  display: none;
+}
+
+.logoyarsi{
+  display: none;
+}
+
+.garis1{
+    margin: 20px 15px;
+    width: 40px;
+    height: 0px;
+    top: 20px;
+    opacity: 0.6;
+    border: 1px solid rgba(76, 90, 115, 0.4);
+    transform: rotate(90deg);
+}
+
+.kutip svg{
+    position: absolute;
+    width: 100px;
+    left: 1100px;
+    top: 100px;
+    fill: #E6E9F4;
+}
+
+.container-text{
+    background-color: #F3F4F8;
+    height: 85vh;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+}
+
+.container-text h2{
+    color: black;
+}
+
+.container-text .textVisi{
+    width: 470px;
+    height: 200px;
+    margin: 4rem;
+    color: #4C5A73;
+}
+
+.container-text .textVisi{
+    font-size: 19px;
+}
+
+.container-text .textMisi{
+width: 597px;
+height: 440px;
+text-align: left;
+margin: 4rem;
+color: #4C5A73;
+}
+
+.container-dosen{
+    display: block;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.container-dosen h2{
+    text-align: center;
+    font-weight: bold;
+    color: #4C5A73;
+}
+
+.container-dosen p{
+    margin: 3rem;
+    width: 60rem;
+    width: 1100px;
+    height: 125px;
+    left: 90px;
+    top: 500px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4C5A73;
+}
+
+.dosen{
+    height: 100vh;
+    width: 190vh;
+    position: relative;
+}
+/*dosen1 */
+.dosen .dosenprofil{
+    position: absolute;
+    display: flex;
+    width: 1000px;
+    height: 450px;
+    margin-left: 2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 250px 10px 15px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.dosen .dosenprofil.slide-out {
+    transform: translateX(100%); /* Slide out to the right */
+}
+
+.dosen .dosenprofil.slide-out-bottom {
+    position: relative;
+    transform: translateY(100%);
+}
+
+
+.dosen .dosenprofil img{
+    border-radius: 0px 10px 10px 10px;
+    width: 20rem;
+}
+
+.dosen .dosenprofil h4{
+    margin-top: -3rem;
+    margin-left: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FB9119;
+}
+
+.dosen .dosenprofil p{
+    width: 30rem;
+    height: 20rem;
+    line-height: 1,5rem;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #767676;
+}
+
+.dosen .dosenprofil h5{
+    margin-left: 3rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4C5A73;
+    font-family: 'Inter';
+}
+
+#next-btn {
+    margin-top: 0rem;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  .carousel-indicators {
+    top: 90rem;
+    display: flex;
+  }
+  
+  .indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #0033ff;
+    margin: 0 10px;
+    cursor: pointer;
+    margin-top: 0rem;
+  }
+  
+  .indicator.active {
+    background-color: orange;
+  }
+
+  .last-child {
+    background-color: orange;
+  }
+
+  .container-textYt{
+    background-color: #7ACAB0;
+    height: 120vh;
+    display: flex;
+  }
+
+  .container-textYt .textyt{
+    display: block;
+    margin-top: 9rem;
+  }
+
+  .container-textYt .textyt .peringatan1{
+    display: block;
+    color: #ffffff;
+    width: 20rem;
+    margin-left: 9rem;
+  }
+
+  .container-textYt .textyt .peringatan1 h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .container-textYt .textyt .peringatan2{
+    display: block;
+    color: #ffffff;
+    width: 20rem;
+    margin-left: 9rem;
+  }
+
+  .container-textYt .textyt .peringatan2 h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .container-textYt .gambaryt img{
+    background-color: #b9b9b9;
+    width: 40rem;
+    margin-left: 8rem;
+    margin-top: 9rem;
+  }
+
+
+  .container-informasi{
+    margin-top: 4rem;
+  }
+
+  .container-informasi .cardinformasi .infromasi1, .infromasi2{
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .card-img-center {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .container-informasi .card .card-body{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #4C5A73;
+  }
+
+  .container-informasi .card .card-body a{
+    background-color: #37BD71;
+    border: 1px solid #37BD71;
+  }
+
+  .container-informasi .card .card-body h5{
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .container-footer{
+    background-color: #7ACAB0;
+    height: 80vh;
+    color: white;
+    margin-top: 2rem;
+  }
+
+  .textFooter{
+    display: flex;
+  }
+
+  .container-footer .alamatYarsi{
+    width: 20rem;
+    margin:6rem;
+    height: 10rem;
+  }
+
+  .container-footer .alamatYarsi h2{
+    font-size: 18px
+  }
+  .container-footer .hubungiKami h2{
+    font-size: 18px;
+  }
+
+  .container-footer .alamatYarsi p, .hubungiKami p{
+    font-size: 15px;
+  }
+
+  .container-footer .hubungiKami{
+    width: 20rem;
+    margin:6rem;
+    height: 10rem;
+    margin-left: 24rem;
+  }
+
+  .container-footer .garispanjang{
+    /* Line 3 */
+
+    width: 1154px;
+    height: 0px;
+    left: 100rem;
+    top: 4078px;
+    margin-left: 2rem;
+    border: 1px solid #37BD71;
+    transform: rotate(-0.13deg);
+
+  }
+
+  .container-footer .textWtermak  p{
+    font-size: 14px;
+    margin: 2rem;
+    margin-left: 70%;
+    width: 20rem;
+    font-weight: bold;
+  }
+
+
+
+   /*responsiv */
+   @media only screen and (max-width: 768px) {
+
+    nav{
+      width: 100%;
+    }
+    body{
+      overflow-x: hidden;
+    }
+    
+    .ProfilResponsiv{
+      width: 15rem;
+    }
+
+    .ProfilResponsiv .svg{
+      position: absolute;
+      margin: 10px;
+      left: 260px;
+    }
+
+    .ProfilResponsiv .img{
+      position: absolute;
+      left: 300px;
+    }
+
+    .ProfilResponsiv .nav-item{
+      position: absolute;
+      left: 340px;
+      top: -12px;
+    }
+
+    .logoyarsi{
+        display: none;
+    }
+    #Categories{
+      margin-top: 2rem;
+      width: 8rem;
+    }
+
+    #Categories .dropdown-menu{
+      width: 20rem;
+    }
+
+    #Recent{
+      display: none;
+    }
+
+    .navbar-nav .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+    }
+
+    .ProfilResponsiv{
+      display: flex;
+    }
+
+    .kutip svg{
+      position: absolute;
+      width: 70px;
+      left: 270px;
+      top: 85px;
+      fill: #E6E9F4;
+  }
+  
+  .container-text{
+    display: block;
+    height: 65vh;
+    width: 100%;
+}
+
+  .container-text .textVisi{
+    width: 18rem;
+    height: 100px;
+    margin: 4rem;
+    margin-left: 15px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.container-text .textMisi{
+width: 18rem;
+height: 19rem;
+text-align: left;
+margin: 4rem;
+color: #4C5A73;
+margin-left: 15px;
+margin-top: -10px;
+}
+
+.container-text .textMisi{
+  font-size: 10px;
+}
+
+.container-dosen{
+  display: block;
+  margin: 20px;
+}
+
+.container-dosen h2{
+  text-align: center;
+  font-weight: bold;
+  color: #4C5A73;
+}
+
+.container-dosen .textDosen p{
+  margin: 3rem;
+  width: 15rem;
+  height: 10rem;
+  margin-right: 10rem;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #4C5A73;
+  margin-top: 25px;
+}
+
+.dosen{
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  margin-top: -3rem;
+  
+}
+/*dosen1 */
+.dosen .dosenprofil{
+  display: flex;
+  width: 300px;
+  height: 180px;
+  align-items: self-start;
+  margin-left: -50rem;
+  border-radius: 15px 90px 10px 15px;
+  transform: translateX(-50%);
+  left: 30%; /* Initial position */
+  transition: transform 0.5s ease-in-out; 
+ /* Smooth transition */
+}
+.dosen .dosenprofil:nth-child(-n+4) {
+  transform: translateX(-100%);
+  opacity: 0; /* Hide profiles 1-4 */
+}
+
+
+#next-btn:hover {
+  background-color: #ccc; /* Change button color on hover */
+}
+
+.dosen .dosenprofil img{
+  border-radius: 0px 10px 10px 10px;
+  width: 10rem;
+  height: 11rem;
+  margin-left: 2px;
+}
+
+.dosen .dosenprofil .text-dosen h4{
+  font-size: 3px;
+  margin-left: 1rem;
+}
+
+.dosen .dosenprofil .text-dosen p{
+  width: 8rem;
+  height: 6rem;
+  margin-right: 5rem;
+  font-size: 3px;
+  line-height: 7px;
+  margin-top: 3rem;
+  margin-left: 10px;
+}
+
+.dosen .dosenprofil h5{
+  font-size: 3px;
+  margin-top: -1rem;
+  margin-left: 15px;
+}
+
+.indicator {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  margin-top: -20rem;
+}
+
+#next-btn {
+  display: none;
+  
+}
+
+.container-textYt{
+  background-color: #7ACAB0;
+  height: 38vh;
+  width: 100%;
+  display: flex;
+  margin-top: -15rem;
+}
+
+.container-textYt .textyt{
+  display: block;
+  margin-top: 2rem;
+  justify-content: left;
+  width: 20rem;
+}
+
+.container-textYt .textyt .peringatan1{
+  display: block;
+  color: #ffffff;
+  width: 10rem;
+  font-size: 6px;
+  margin-left: 1rem;
+}
+
+.container-textYt .textyt .peringatan1 h3{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.container-textYt .textyt .peringatan2{
+  display: block;
+  color: #ffffff;
+  width: 10rem;
+  font-size: 6px;
+  margin-left: 1rem;
+}
+
+.container-textYt .textyt .peringatan2 h3{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.container-textYt .gambaryt img{
+  position: relative;
+  background-color: #b9b9b9;
+  width: 10rem;
+  margin-left: -7rem;
+  margin-top: 30px;
+}
+
+
+.container-informasi{
+  margin-top: 4rem;
+  width: 100%;
+  
+}
+
+.container-informasi .cardinformasi .infromasi1, .infromasi2{
+  justify-content: center;
+  align-items: center;
+  margin-left: 6%;
+  display: block;
+  padding-top: 20px;
+  width: 85%;
+}
+
+.card-img-center {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  object-position: center;
+}
+
+.container-informasi .card .card-body{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #4C5A73;
+}
+
+.container-informasi .card .card-body a{
+  background-color: #37BD71;
+  border: 1px solid #37BD71;
+}
+
+.container-informasi .card .card-body h5{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container-footer .garispanjang{
+  /* Line 3 */
+
+  width: 250px;
+  height: 0px;
+  left: 100rem;
+  margin-top: -40px;
+  margin-left: 2rem;
+  border: 1px solid #37BD71;
+  transform: rotate(-0.13deg);
+
+}
+
+.container-footer .textWtermak  p{
+  font-size: 10px;
+  margin: 2rem;
+  margin-left: 10%;
+  width: 20rem;
+  font-weight: bold;
+}
+
+.container-footer{
+  background-color: #7ACAB0;
+  width: 100%;
+  height: 50vh;
+  color: white;
+}
+
+.textFooter{
+  display: flex;
+}
+
+.container-footer .alamatYarsi{
+  width: 20rem;
+  margin-left: 20px;
+  height: 10rem;
+  margin-top: 10px;
+}
+
+.container-footer .alamatYarsi h2{
+  font-size: 18px;
+
+}
+.container-footer .hubungiKami h2{
+  font-size: 18px;
+}
+
+.container-footer .alamatYarsi p, .hubungiKami p{
+  font-size: 10px;
+  
+}
+
+.container-footer .hubungiKami{
+  width: 10rem;
+  margin:6rem;
+  height: 5rem;
+  margin-left: 2rem;
+  margin-top: 10px;
+  }
+}
+ 
+

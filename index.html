@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Pertama</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"
+    style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img src="layar.logo_v.1.01.png" alt="" srcset="" class="logoyarsi">
+      <div class="ProfilResponsiv">
+        <svg width="20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg">
+          <path
+            d="M57.2083 87.5001C56.4758 88.7629 55.4243 89.8111 54.1593 90.5398C52.8942 91.2685 51.4599 91.652 50 91.652C48.5401 91.652 47.1058 91.2685 45.8407 90.5398C44.5757 89.8111 43.5242 88.7629 42.7917 87.5001M75 33.3334C75 26.703 72.3661 20.3442 67.6777 15.6558C62.9893 10.9674 56.6304 8.33344 50 8.33344C43.3696 8.33344 37.0107 10.9674 32.3223 15.6558C27.6339 20.3442 25 26.703 25 33.3334C25 62.5001 12.5 70.8334 12.5 70.8334H87.5C87.5 70.8334 75 62.5001 75 33.3334Z"
+            stroke="#616E84" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <div class="garis1" style="margin-left: 12rem;"></div>
+        <div class="img"></div>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+          </a>
+          <ul class="dropdown-menu" style="left: -150px;">
+            <li><a class="dropdown-item" href="#">Profil</a></li>
+            <li><a class="dropdown-item" href="#">Nilai</a></li>
+            <li><a class="dropdown-item" href="#">Berkas Pribadi</a></li>
+            <li><a class="dropdown-item" href="#">Laporan</a></li>
+            <li><a class="dropdown-item" href="#">Preferensi</a></li>
+            <li><a class="dropdown-item" href="#">Bahasa</a></li>
+            <li><a class="dropdown-item" href="#">Keluar</a></li>
+          </ul>
+        </li>
+        <div class="garis1"></div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav" style="padding: 13px;  margin-left: 20px;">
+          <img src="layar.logo_v.1.01.png" alt="" srcset="">
+          <li class="nav-item dropdown" style="background-color: #E9F4EE; border-radius: 5px;" id="Categories">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Fakultas Teknologi Informasi</a></li>
+              <li><a class="dropdown-item" href="#">Fakultas Psikologi</a></li>
+              <li><a class="dropdown-item" href="#">Fakultas Hukum</a></li>
+              <li><a class="dropdown-item" href="#">Fakultas Kedokteran</a></li>
+              <li><a class="dropdown-item" href="#">Fakultas Kedokteran Gigi</a></li>
+              <li><a class="dropdown-item" href="#">Fakultas Ekonomi Bisnis</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-hover" aria-current="page" href="#" style="color: #37BD71;">Beranda</a>
+            <span class="nav-underline" style="background-color: #37BD71;"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-hover" href="#">Dasbor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-hover" href="#">Kursusku</a>
+          </li>
+          <ul class="navbar-nav" style="margin-left: 370px; padding-bottom: 5px;" id="Recent">
+            <li class="nav-item dropdown" style="border-radius: 5px;">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Recent
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Beranda</a></li>
+                <li><a class="dropdown-item" href="#">Dasboard</a></li>
+                <li><a class="dropdown-item" href="#">Kursusku</a></li>
+              </ul>
+            </li>
+            <svg width="20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 12px;">
+              <path
+                d="M57.2083 87.5001C56.4758 88.7629 55.4243 89.8111 54.1593 90.5398C52.8942 91.2685 51.4599 91.652 50 91.652C48.5401 91.652 47.1058 91.2685 45.8407 90.5398C44.5757 89.8111 43.5242 88.7629 42.7917 87.5001M75 33.3334C75 26.703 72.3661 20.3442 67.6777 15.6558C62.9893 10.9674 56.6304 8.33344 50 8.33344C43.3696 8.33344 37.0107 10.9674 32.3223 15.6558C27.6339 20.3442 25 26.703 25 33.3334C25 62.5001 12.5 70.8334 12.5 70.8334H87.5C87.5 70.8334 75 62.5001 75 33.3334Z"
+                stroke="#616E84" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <div class="garis1"></div>
+            <div class="img"></div>
+            <li class="nav-item dropdown" style="border-radius: 5px;">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+              </a>
+              <ul class="dropdown-menu" style="left: -50px;">
+                <li><a class="dropdown-item" href="#">Profil</a></li>
+                <li><a class="dropdown-item" href="#">Nilai</a></li>
+                <li><a class="dropdown-item" href="#">Berkas Pribadi</a></li>
+                <li><a class="dropdown-item" href="#">Laporan</a></li>
+                <li><a class="dropdown-item" href="#">Preferensi</a></li>
+                <li><a class="dropdown-item" href="#">Bahasa</a></li>
+                <li><a class="dropdown-item" href="#">Keluar</a></li>
+              </ul>
+            </li>
+            <div class="garis1"></div>
+          </ul>
+          <ul class="navbar-nav ms-2 d-block d-md-none" id="RecentMobile">
+            <li class="nav-item dropdown" style="border-radius: 5px;">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Recent
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Beranda</a></li>
+                <li><a class="dropdown-item" href="#">Dasboard</a></li>
+                <li><a class="dropdown-item" href="#">Kursusku</a></li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Selesai -->
+
+  <div class="kutip">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"/></svg>
+  </div>
+
+   <!-- Mulai -->
+   <div class="container-text">
+    <div class="textVisi">
+      <h2>Visi</h2>
+      <p>“Mewujudkan perguruan Tinggi Islam yang terpandang, berwibawa, bermutu tinggi dan mampu bersaing dalam forum nasional maupun Internasional”</p>
+    </div>
+    <div class="textMisi">
+      <h2>Misi</h2>
+      <p>
+        1. Mengembangkan ilmu pengetahuan, teknologi, dan seni, melalui pendidikan, pengajaran dan pembelajaran yang unggul dan bermutu tinggi sesuai Islam,<br>
+        2. Mengembangkan ilmu pengetahuan, teknologi dan seni, melalui pengkajian, penelitian dan publikasi yang unggul dan bermutu tinggi sesuai Islam,<br>
+        3. Mengembangkan ilmu pengetahuan, teknologi, dan seni, yang dapat menjawab masalah dan tantangan masyarakat dunia yang unggul dan bermutu tinggi sesuai Islam,<br>
+        4. Mengembangkan sumberdaya manusia dan tata kelola yang dapat menjawab persoalan yang timbul di masyarakat serta memberi arah perubahan dalam rangka membangun masyarakat dunia, khususnya masyarakat Indonesia yang adil, makmur, merata dan beradab sesuai Islam.</p>
+    </div>
+   </div>
+   <!-- selesai -->
+   <!-- profil Dosen -->
+    <div class="container-dosen">
+      <div class="textDosen">
+        <h2>Para Dosen Inspirator</h2>
+        <p>Sekarang sudah bukan zamannya dosen fokus ceramah di depan kelas. Kini juga bukan saatnya memusatkan kegiatan belajar pada pertemuan sinkronus. Sekarang adalah zamannya untuk seperti dosen-dosen yang inspiratif! Direktorat Pembelajaran Jarak Jauh dengan bangga memperkenalkan para dosen inspiratif yang membuat desain pembelajaran berbasis pada mahasiswa dalam program Peningkatan Kualitas Pembelajaran (PELITA).
+        </p>
+      </div>
+        <div class="dosen">
+
+          <div class="dosenprofil" id="dosen5">
+            <img src="Elan-Suherlan.jpg"  alt="" srcset="">
+            <div class="text-dosen">
+              <p>Siapa yang tidak kenal Pak Elan Suherlan? Dosen dari Program Studi Teknik Informatika ini selalu berusaha mendidik mahasiswanya menjadi manusia yang hakiki dengan sepenuh hati. Pada PELITA I, beliau memperbaiki desain pembelajaran mata kuliah Matematika Diskrit 2 untuk semester Genap 2020/2021. Pak Elan ingin mahasiswanya bisa naik level lebih cepat. Agar mimpi tersebut dapat tercapai, beliau memaksimalkan kegiatan asinkronus dengan penilaian otomatis untuk kuis dan tugas; umpan balik yang cepat dapat membantu mahasiswa memperbaiki pemahaman mereka. Selain itu, Pak Elan meminta mahasiswa untuk melakukan refleksi, namun dengan menggunakan peta konsep, yang jika dilakukan dengan baik, dapat membantu mahasiswa melihat hubungan semua konsep yang diangkat dalam mata kuliah.
+              </p>
+              <h4>Elan Suherlan,S.Si.,M.Si.</h4>
+              <h5>Teknik Informatika</h5>
+           </div>
+          </div>
+          
+          <div class="dosenprofil" id="dosen4">
+            <img src="Herika.jpg"  alt="" srcset="">
+            <div class="text-dosen">
+              <p>Kolaborasi antara Bu Herika dan Bu Nurmaya pada mata kuliah Basis Data 1 untuk semester Genap 2020/2021 merupakan hal yang fenomenal karena mereka berdua sama-sama meninggalkan gaya teacher-centered. Perubahan filosofi pembelajaran berdampak besar pada perubahan desain instruksional. Pada PELITA I, mereka memutuskan untuk menggunakan kegiatan belajar yang lebih partisipatif, seperti design case study, peer evaluation, pair programming, dan refleksi dengan memanfaatkan concept map. Mereka menyadari dengan student- centered learning, mereka tetap bisa mendidik dengan sepenuh hati, walau butuh tenaga lebih untuk menyesuaikan mindset dan menyiapkan berbagai kegiatan belajar.
+              </p>
+              <h4>Herika Hayurani,S.Kom.,M.Kom.</h4>
+              <h5>Teknik Informatika</h5>
+           </div>
+          </div>
+          
+          <div class="dosenprofil" id="dosen3">
+            <img src="puji-utami.jpg"  alt="" srcset="">
+            <div class="text-dosen">
+              <p>Dulu beliau hanya fokus pada metode ceramah, kini dosen Program Studi Teknik Informatika berfokus pada proses belajar yang dilakukan oleh mahasiswanya. Pada PELITA II, Bu Puji mengubah desain pembelajaran mata kuliah Dasar-Dasar Jaringan 1 untuk Semester Ganjil 2021/2022. Beliau menyediakan banyak tugas dan kuis mandiri baru, yang dapat dikerjakan berulang kali oleh mahasiswanya.
+              </p>
+              <h4>Sri Puji Utami, S.T., M.T.</h4>
+              <h5>Teknik Informatika</h5>
+           </div>
+          </div>
+          <div class="dosenprofil" id="dosen2">
+            <img src="sabiq.jpg"  alt="" srcset="">
+            <div class="text-dosen">
+              <p>Pada PELITA II, dosen Prodi Teknik Informatika ini meningkatkan kualitas pembelajaran mata kuliah Organisasi dan Arsitektur Komputer untuk semester Ganjil 2021/2022. Pak Sabiq ingin mahasiswa dapat mengembangkan pemahaman dan kemampuan berpikir kritis mereka secara mandiri. Beliau mendesain beberapa kegiatan belajar menggunakan mind mapping, aktivitas case-based, dan project- based.
+              </p>
+              <h4>Ahmad Sabiq, S.Kom., M.Kom.</h4>
+              <h5>Teknik Informatika</h5>
+           </div>
+          </div>
+          
+         
+          
+          <div class="dosenprofil" id="dosen1">
+            <img src="Andreas-Febrian-S.Kom_.-M.Kom_.-Ph.D.jpg" alt="" srcset="">
+              <div class="text-dosen">
+                <p>Terkenal dengan #pintarltuPilihan, dosen dari Program Studi Teknik Informatika senang sekali membuat kegiatan belajar yang anti-mainstream. Pada PELITA I, Pak Andreas berusaha mengganti UTS dan UAS di mata kuliah Dasar-Dasar Pemrograman dengan kesempatan untuk pameran, yang beliau sebut dengan nama Unjuk Kemampuan. "Mahasiswa butuh kesempatan untuk memamerkan keterampilannya - bahwa mereka kompeten," ujar beliau. Agar mimpi tersebut terwujud, Pak Andreas menyediakan 12 Tugas Mandiri, 21 Latihan Teori, dan 19 Praktikum, yang semuanya dapat diselesaikan sampai semester berakhir. Strategi yang beliau pilih secara lantang berteriak: kamu akan bisa ngoding, jalan menuju kompeten ngoding sudah dibuka, tinggal kamu mau berusaha atau tidak?!
+                </p>
+                <h4>Andreas Febrian, S.Kom.,M.Kom.,Ph.D.</h4>
+                <h5>Teknik Informatika</h5>
+              </div>
+            </div>
+        </div>
+        <button id="next-btn" style="position: absolute; left: 73rem; top: 75rem;">Next</button>
+        <div class="carousel-indicators">
+          <button class="indicator last-child" data-target="dosen5" ></button>
+          <button class="indicator" data-target="dosen4"></button>
+          <button class="indicator" data-target="dosen3"></button>
+          <button class="indicator" data-target="dosen2"></button>
+          <button class="indicator" data-target="dosen1"></button>
+        </div>
+    </div>
+   <!-- Selesai -->
+   <!-- text Yt -->
+    <div class="container-textYt">
+      <div class="textyt">
+        <div class="peringatan1">
+          <h3>Pengingat untuk Instruktur:</h3>
+          <p>Instruktur jangan lupa untuk menyediakan aktivitas belajar (e.g., materi, tugas, atau kuis) untuk presensi. Pastikan aktivitas tersebut diberikan label (Presensi) dan sudah mengaktifkan automatic activity completion, sehingga aktivitas mahasiswa dapat terekam secara otomatis.</p>
+        </div>
+        <div class="peringatan2">
+          <h3>Pengingat untuk Mahasiswa:</h3>
+          <p>Pastikan Anda menyelesaikan aktivitas belajar untuk presensi sampai mendapatkan tanda checklist hijau; silahkan refresh (i.e., buka ulang/F5/ctrl+R) halaman tersebut kemudian ulangi aktivitas tersebut jika belum mendapatkan tanda checklist.</p>
+          <p class="textBawah">Bagi Anda yang salah memilih mata kuilah di LAYAR dan mencari cara untuk keluar (unenroll) dari mata kuliah tersebut, silahkan lihat video berikut</p>
+        </div>
+      </div>
+      <div class="gambaryt">
+        <img src="IMG_3621.PNG" alt="">
+      </div>
+    </div>
+    <!-- selesai -->
+     <!-- card -->
+
+     <div class="container-informasi">
+      <div class="cardinformasi">
+        <div class="infromasi1">
+      <div class="card" style="width: 18rem;">
+        <img src="informaSI1.jpg" class="card-img-top card-img-center"alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Getting Started with LAYAR</h5>
+          <a href="#" class="btn btn-primary">Watch on Youtube</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="infromasi2.jpg" class="card-img-top card-img-center"alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bantuan Untuk Mahasiswa</h5>
+          <a href="#" class="btn btn-primary">Get help on Telegram</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="infromasi3.jpg" class="card-img-top card-img-center"alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bantuan Untuk Dosen</h5>
+          <a href="#" class="btn btn-primary">Get help on Telegram</a>
+        </div>
+      </div>
+    </div>
+    </div>
+        <div class="infromasi2">
+      <div class="card" style="width: 18rem;">
+        <img src="informaSI3.jpg" class="card-img-top card-img-center"alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Berkenalan Dengan LAYAR</h5>
+          <a href="#" class="btn btn-primary">Join The Course</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="infromasi5.jpg" class="card-img-top card-img-center"alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sharing Session PELITA</h5>
+          <a href="#" class="btn btn-primary">Get Inspired</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="informaSI6.jpg" class="card-img-top card-img-center"alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BimTek Penggunaan LAYAR</h5>
+          <a href="#" class="btn btn-primary">See The Tutorials</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+    <!-- selesai -->
+    <!-- Footer -->
+      <div class="container-footer">
+        <div class="textFooter">
+      <div class="alamatYarsi">
+        <h2>Universitas Yarsi</h2>
+        <br>
+        <p>Menara YARSI <br>
+          Jl. Let. Jend. Suprapto <br>
+          Kav. 13. Cempaka Putih, Jakarta Pusat <br>
+          DKI Jakarta, 10510 <br>
+          Indonesia</p>
+      </div>
+      <div class="hubungiKami">
+        <h2>Hubungi Kami</h2> 
+        <br>
+
+        <p>WhatsApp: +6281112138989 <br>
+        E-mail: cesario.auditya@yarsi.ac.id</p>
+
+    </div>
+  </div>
+  <div class="garispanjang"></div>
+  <div class="textWtermak">
+    <p>© 2024 e-Learning Universitas YARSI | All Right <br>
+Reserved</p>
+  </div>
+
+      </div>
+    </div>
+    <!-- selesai -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
